@@ -180,34 +180,25 @@ The goal is to simulate the creative complexity and tonal unpredictability of a 
 
 At the heart of **StudioSync** is the use of **standard studio narrative documents** in **markdown**, not specially structured JSON or YAML formats. This decision prioritizes **real-world compatibility** and **reduces adoption friction**.
 
-The system's evaluations and responses to queries will be informed by these structured documents:
+To depict a realistic workflow, relevant docs will inform the system's responses at every stage stage. These documents **anchor** the system’s **conversational knowledge base**, providing the structural and thematic foundation for all subsequent interactions. To reflect the realistic growth and sharpening of a long-form creative work, some documents that were inputs at an early stage become reference docs at later stages:
 
-- **Studio Mandate**: Defines studio priorities in terms of genre, target audience, structure, business alignment, and other decision factors. 
-- **Series Pitches**: Concise pitches directed toward the studio, structured to meet submission guidelines.
-- **Series Bible**: Captures premise, genre, tone, world rules, and overarching story engines, including explicit and implicit narrative constraints such as mandates, forbidden devices, and structural guardrails.
-- **Character Bible**: Profiles detailing background, personality, motivations, weaknesses, relationships, factual details (age, eye color), and character arcs. 
-- **Episode Summaries (Season 1)**: Short synopses capturing the key events and thematic beats for each episode.
-- **Pilot Outlines**: Expanded Episode Outlines, to evaluate the episodes as a potential pilot.
-- **Episode Outlines (Season 1)**: Structured outlines (acts/beats) for each episode, used to determine script readiness. The system scores these outlines based on adherence to narrative structure and signals readiness to proceed with full script development.
-- **Episode Outlines (Season 2)**: Structured episode outlines, same as season 1, but this new batch of episodes can also use season 1 as a reference for multi-season arcs, redundancy flags, continuity checks, and setup/payoff.
- 
-These documents **anchor** the system’s **conversational knowledge base**, providing the structural and thematic foundation for all subsequent interactions. 
-
-To depict a realistic workflow, relevant docs will inform the system's responses at different stages. To reflect the realistic growth and sharpening of a long-form creative work, some documents that were inputs at an early stage become reference docs at later stages:
-
-**Reference Document**: A previously-ingested creative artifact that serves as persistent context for evaluation, query, or guidance. These are the rules, structures, and priorities that inform evaluation of inputs.
+**Reference Document**: Previously-ingested creative artifact that serve as persistent context for evaluation, query, or guidance. These form the rules, structures, and priorities that inform responses to inputs.
 **Examples:**
-- **Studio Mandate**
-- **Series Bible**
-- **Character Bible**
+- **Studio Mandate - Stages 1, 2 & 3**: Defines studio priorities in terms of genre, target audience, structure, business alignment, and other decision factors. 
+- **Series Bible - Stages 2 & 3**: Captures premise, genre, tone, world rules, and overarching story engines, including explicit and implicit narrative constraints such as mandates, forbidden devices, and structural guardrails.
+- **Character Bible - Stages 2 & 3**: Profiles detailing background, personality, motivations, weaknesses, relationships, factual details (age, eye color), and character arcs. 
+- **Episode Summaries (Season 1) - Stage 3**: Short synopses capturing the key events and thematic beats for each episode.
+- **Pilot Outlines - Stage 3**: Expanded episode outlines for pilot episode candidates.
+- **Episode Outlines (Season 1) - Stage 3**: Structured outlines (acts/beats) for each episode.
 
-**Structured Input**: A document or artifact submitted in a template-specific format so the system can perform formal evaluation, coverage, structured scoring, and provide a soft greenlight or flag issues for revision.
+**Structured Input**: Document or artifact submitted in a template-specific format so the system can perform formal evaluation, coverage, structured scoring, and provide a soft greenlight or flag issues for revision.
 **Examples:**
-- **Series Pitches - Stage 1**  
-- **Episode Outlines (Season 1) - Stage 2**
-- **Episode Outlines (Season 2) - Stage 3**
+- **Series Pitches - Stage 1**: Concise pitches directed toward the studio, structured to meet submission guidelines.
+- **Pilot Outlines - Stage 2**: Expanded Episode Outlines, to evaluate the episodes as a potential pilot.
+- **Episode Outlines (Season 1) - Stage 2**: The system scores these outlines based on adherence to narrative structure and signals readiness to proceed with full script development.
+- **Episode Outlines (Season 2) - Stage 3**: Structured episode outlines, same as season 1, but this new batch of episodes can also use season 1 as a reference for multi-season arcs, redundancy flags, continuity checks, and setup/payoff.
 
-**Unstructured Input**: Natural language queries or unstructured concepts. Responses to these inputs are informed by reference docs to provide feedback, exploration, iteration, or idea validation.
+**Unstructured Input**: Natural language query or concept. Responses to these inputs are informed by reference docs to provide feedback, exploration, iteration, or idea validation.
 **Examples:**
 - **Character Utilization** "Do all seven ensemble characters contribute meaningfully to this episode? Which characters are drivers? Which are foils?"
 - **Continuity** "What foods did we establish that Faye is allergic to?"
@@ -215,29 +206,66 @@ To depict a realistic workflow, relevant docs will inform the system's responses
 - **Coverage** "Does the pilot episode introduce the main characters, and the premise, organically?"
 - **Structure** "Are there specific rules for how episodes should begin and end? What are they?"
 
+**Development Stages & Document Flow**
+Each development stage introduces new documents as inputs and promotes others to reference status. This reflects how long-form work evolves over time. Ideas are sharpened, canon solidifies, and the creative system becomes more knowledgeable.
+
 **Stage 1: Early Development - Ideation & Pitching**
-At this stage we have pitches, as input, to be evaluated against studio requirements, as reference.
-- **Reference Documents**: Studio Mandate
-- **Structured Input**: Series Pitches
-- **Unstructured Input**: "What are the studio's submission guidelines? Explain in detail."
+The initial pitch for the series, evaluated for alignment with studio priorities.
+- **Reference Documents**:
+- Studio Mandate
+- **Structured Input**:
+- Series Pitches
+- **Unstructured Input**:
+- "What are the studio's submission guidelines? Explain in detail."
+- “Does this logline align with our tone and genre targets?”
   
-**Stage 2: Mid Development Series & Episode Design**
-At this stage writing is underway. We have a full Series Bible and Character Bible for added reference, and these docs can continue to grow and change as specifics are ironed out. Ideas will crystalize into 10 episodes, with a clear pilot, by the end of this stage. 
-- **Reference Documents**: Studio Mandate, Series Pitch, Series Bible, Character Bible
-- **Structured Input**: Episode Outlines - Season 1, Pilot Outlines
-- **Unstructured Input**: "What if we did an episode where two of the main characters go on a road trip and the other five are not in this episode? Is this a good concept? Let's explore."
+**Stage 2: Mid Development - Series & Episode Design**
+At this stage writing is underway. We now have a full Series Bible and Character Bible for added reference, and these docs can continue to grow and change as specifics are ironed out. Ideas will crystalize into 10 episodes, with a clear pilot, by the end of this stage. 
+- **Reference Documents**:
+- Studio Mandate
+- Series Pitch
+- Series Bible
+- Character Bible
+- **Structured Input**:
+- Episode Outlines (Season 1)
+- Pilot Outlines
+- **Unstructured Input**:
+- “What rules govern how episodes should begin and end?”
+- “Which main character is most motivated by greed?"
+- "What if we do an episode where the ensemble buy a boat and give it to charity? Does this have potential? Why or why not?"
   
-**Stage 3: Late Development** — Season Treatment & Holistic Evaluation
-At this stage the season treatment is at least tentatively complete. We can add our pilot episode, additional episode outlines, and episode summaries to the referenced documents. We now have the entire season 1 treatment in reference, allowing us to answer high-level queries on the full body of work. These documents will also enhance our workflow even further when we approach season 2.
-**Reference Documents**: Studio Mandate, Series Pitch, Series Bible, Character Bible, Episode Outlines, Episode Outlines - Season 1, Episode Summaries - Season 1
-**Structured Input**: Episode Outlines - Season 2
-**Unstructured Input**: "Does this treatment, as a whole, align with our target audience? Why or why not?"
+**Stage 3: Late Development - Season Treatment & Holistic Evaluation**
+Now the season treatment is at least tentatively complete. We can add our pilot episode, additional episode outlines, and episode summaries to the referenced documents. We now have the entire season 1 treatment in reference, allowing us to answer high-level queries on the full body of work. These documents will also enhance our workflow even further when we approach season 2.
+- **Reference Documents**: 
+- Studio Mandate
+- Series Pitch
+- Series Bible
+- Character Bible
+- Episode Outlines
+- Episode Outlines (Season 1)
+- Episode Summaries (Season 1)
+- **Structured Input**: 
+- Episode Outlines (Season 2)
+- **Unstructured Input**: 
+- “What unresolved arcs carry over from Season 1 to 2?”
+- “Does Episode 10 deliver satisfying thematic closure?”
+- “Is this season 2 episode concept redundant with any episodes from season 1?”
 
-While this demonstration uses studio-style creative documents, each implementation will vary depending on the domain and creative goals. Alternate use cases include:
+**Document Reuse & System Growth**
+By reusing documents as reference over time, **StudioSync** accumulates narrative memory. This supports:
+- Setup/payoff tracking
+- Tone and rule enforcement
+- Character consistency
+- Narrative evolution and risk management
+- Flagging of structural or thematic redundancy
+- Each new season or batch of episodes becomes easier to develop and validate as the system builds up its conversational knowledge base.
 
-- **Technical blueprints** for engineering and product design.
-- **Company guidelines** for internal communications or knowledge management.
-- **World-building documents** for complex IPs in fantasy, science-fiction, or alternate history.
+**Beyond Screenwriting**
+While this demo focuses on episodic comedy writing, **StudioSync** generalizes well to other use cases:
+
+**Engineering** – Blueprints, specs, system constraints, iterations
+**Product Development** – PRDs, user stories, QA reports, releases
+**World-Building** – Geography, timelines, lore bibles, canon events
 
 The broader goal is to iteratively transform **static documents** into a **conversational knowledge layer** that **augments human creativity** without disrupting established workflows.
 
