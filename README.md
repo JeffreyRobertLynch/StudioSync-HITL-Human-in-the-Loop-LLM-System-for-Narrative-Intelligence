@@ -240,7 +240,7 @@ Our real world use case will demonstrate how **StudioSync** integrates into an e
 
 ---
 
-### **Real-World Use Case Defined**
+### 3.1 **Real-World Use Case Defined**
 The human operator will be using **StudioSync** as a support system to develop a 10-episode treatment (with pilot) for a complex, chaos-driven dark comedy series in the vein of *It’s Always Sunny in Philadelphia*. 
 
 The goal is to simulate the creative complexity and tonal unpredictability of a chaos-engine series using a single human operator supported by the **StudioSync** system.
