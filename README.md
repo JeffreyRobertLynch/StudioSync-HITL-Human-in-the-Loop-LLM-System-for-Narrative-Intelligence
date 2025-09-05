@@ -210,33 +210,33 @@ To depict a realistic workflow, relevant docs will inform the system's responses
 Each development stage introduces new documents as inputs and promotes others to reference status. This reflects how long-form work evolves over time. Ideas are sharpened, canon solidifies, and the creative system becomes more knowledgeable.
 
 **Stage 1: Early Development - Ideation & Pitching**
-The initial pitch for the series, evaluated for alignment with studio priorities.
-- **Reference Documents**:
+Initial pitches, evaluated for alignment with studio priorities.
+**Reference Documents**:
 - Studio Mandate
-- **Structured Input**:
+**Structured Inputs**:
 - Series Pitches
-- **Unstructured Input**:
+**Unstructured Inputs**:
 - "What are the studio's submission guidelines? Explain in detail."
 - “Does this logline align with our tone and genre targets?”
   
 **Stage 2: Mid Development - Series & Episode Design**
 At this stage writing is underway. We now have a full Series Bible and Character Bible for added reference, and these docs can continue to grow and change as specifics are ironed out. Ideas will crystalize into 10 episodes, with a clear pilot, by the end of this stage. 
-- **Reference Documents**:
+**Reference Documents**:
 - Studio Mandate
 - Series Pitch
 - Series Bible
 - Character Bible
-- **Structured Input**:
+**Structured Inputs**:
 - Episode Outlines (Season 1)
 - Pilot Outlines
-- **Unstructured Input**:
+**Unstructured Inputs**:
 - “What rules govern how episodes should begin and end?”
 - “Which main character is most motivated by greed?"
 - "What if we do an episode where the ensemble buy a boat and give it to charity? Does this have potential? Why or why not?"
   
 **Stage 3: Late Development - Season Treatment & Holistic Evaluation**
 Now the season treatment is at least tentatively complete. We can add our pilot episode, additional episode outlines, and episode summaries to the referenced documents. We now have the entire season 1 treatment in reference, allowing us to answer high-level queries on the full body of work. These documents will also enhance our workflow even further when we approach season 2.
-- **Reference Documents**: 
+**Reference Documents**: 
 - Studio Mandate
 - Series Pitch
 - Series Bible
@@ -244,9 +244,9 @@ Now the season treatment is at least tentatively complete. We can add our pilot 
 - Episode Outlines
 - Episode Outlines (Season 1)
 - Episode Summaries (Season 1)
-- **Structured Input**: 
+**Structured Inputs**: 
 - Episode Outlines (Season 2)
-- **Unstructured Input**: 
+**Unstructured Inputs**: 
 - “What unresolved arcs carry over from Season 1 to 2?”
 - “Does Episode 10 deliver satisfying thematic closure?”
 - “Is this season 2 episode concept redundant with any episodes from season 1?”
