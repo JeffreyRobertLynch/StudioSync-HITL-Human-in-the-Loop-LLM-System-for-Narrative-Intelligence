@@ -209,7 +209,30 @@ Together, these components form a cognitive memory layer that supports:
 
 ---
 
-### **2.4. Real-World Use Case & Demo Roadmap**
+### **2.4. Demo Roadmap**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+**StudioSync** is not a generative AI writing assistant. The system provides a shared **memory layer for distributed teams**, a centralized knowledge base that preserves updates, versioning, and cross-episode references at every stage of development.
+
+**Stage 1: Early Development – Ideation & Pitching**
+
+We begin with the series pitch, evaluated for alignment with a fictional studio mandate. This stage introduces the system’s ability to reflect studio priorities and flag potential mismatches in tone, premise, or audience alignment.
+
+**Focus:** Studio priority alignment, submission readiness, early-stage queries, target audience
+
+**Stage 2: Mid Development – Series & Episode Design**
+
+As the project advances, the system incorporates growing series and character bibles as more elements become canon. Here, we demonstrate how **StudioSync** handles more structured storytelling elements, enforcing consistency and surfacing issues across character arcs, episode structure, and pilot readiness.
+
+**Focus:** Structured episode evaluation, character consistency, pilot development, concept exploration, rule adherence, run time
+
+**Stage 3: Late Development – Season Treatment & Holistic Evaluation**
+
+With a complete 10-episode treatment in place, the system now provides holistic analysis to track long-term arcs, redundancy risks, tone, and unresolved threads. We also simulate early Season 2 planning to show how **StudioSync** builds on accumulated knowledge over time.
+
+**Focus:** Continuity, coverage, setup/payoff, season-level coherence, arcs
+
+Our real world use case will demonstrate how **StudioSync** integrates into an established workflow to assist writers and showrunners. At each stage, you'll see misaligned and aligned examples, followed by natural language queries that showcase the system’s ability to reason, recall, and respond—all while preserving the creative voice and goals of the human team.
 
 ---
 
@@ -218,13 +241,13 @@ Together, these components form a cognitive memory layer that supports:
 ---
 
 ### **Real-World Use Case Defined**
+The human operator will be using **StudioSync** as a support system to develop a 10-episode treatment (with pilot) for a complex, chaos-driven dark comedy series in the vein of *It’s Always Sunny in Philadelphia*. 
+
+The goal is to simulate the creative complexity and tonal unpredictability of a chaos-engine series using a single human operator supported by the **StudioSync** system.
 
 ---
 
 #### **3.1.1. Use Case: Premise**				
-The human operator will be using **StudioSync** as a support system to develop a 10-episode treatment (with pilot) for a complex, chaos-driven dark comedy series in the vein of *It’s Always Sunny in Philadelphia*. 
-
-The goal is to simulate the creative complexity and tonal unpredictability of a chaos-engine series using a single human operator supported by the **StudioSync** system.
 
 **Premise**: Seven sophisticated yet dysfunctional colleagues receive a large infusion of money and choose to devote their professional lives, and dubious skills, to solving societal problems in "The City" as full-time philanthropists.
 
@@ -372,30 +395,127 @@ This implementation reflects what a single **proficient but non-professional wri
 ---
 
 ### **3.2: Pre-Production Evaluation**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.2.1. Misaligned Pitch Sample**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.2.2. Aligned Pitch Sample**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.2.3. Pre-Production Queries**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 ### **3.3. Unstructured Concept Evaluation**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.3.1. Misaligned Concept Sample**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.3.2. Aligned Concept Sample**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.3.3. Concept-Level Queries**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 ### **3.4: Episode Evaluation**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.4.1. Misaligned Episode Sample**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.4.2. Aligned Episode Sample**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.4.3. Episode-Level Queries**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 ### **3.5. Pilot Evaluation**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.5.1. Misaligned Pilot Sample**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.5.2. Aligned Pilot Sample**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.5.3. Pilot-Level Queries**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 ### **3.6. Full 10-Episode Treatment Evaluation**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.6.1. Misaligned 10-Episode Treatment Sample**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.6.2. Aligned 10-Episode Treatment Sample**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 #### **3.6.3. Treatment-Level Queries**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 ## **4. Conclusion**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 ### 4.1. **Value for Studios**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 ### 4.2. **Value for Showrunner**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 ### 4.3. **Value for Writers**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
 ### 4.4. **Value Across Industries**
+*Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
