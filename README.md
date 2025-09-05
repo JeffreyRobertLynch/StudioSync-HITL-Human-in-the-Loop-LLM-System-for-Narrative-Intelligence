@@ -146,14 +146,80 @@ Effective AI-assisted creative tools must divide cognitive labor according to re
 ---
 
 ## **2. Solution Overview**
+
+**StudioSync** is a **HITL/HFHL** (human-in-the-loop/human-first, human-last), retrieval-augmented cognitive assistant designed to tackle the immense complexity of **long-form narrative development at scale**. By ingesting conventional **studio documents** and leveraging **GPT-5** with advanced retrieval techniques, it offers writers and studios an **intelligent memory layer**, **consistency enforcement**, and **nuanced storytelling support**. This customization empowers **smarter, faster creative workflows** that **align** with **high-level structures** and **long-term goals**. Unlike AI-powered tools that produce "AI slop", **StudioSync** focuses on *narrative cognition* rather than autocomplete, bridging **human creativity** and **AI precision**.
+
+---
+
 ### **2.1. Real-World Use Case**
-### **2.2. Cognitive Division of Labor**
-### **2.3. System Architecture & Technology**
-### **2.4. Demo Roadmap**
-## **3. Demo with Real-World Use Case**
-### **3.1 Real-World Use Case**
+
+Long-form storytelling demands consistency, clarity, and creative evolution across dozens of documents and decisions. **StudioSync** operates within an established TV development pipeline, ingesting studio-native documents (like pitches, character bios, and episode outlines) to support creative iteration, structural validation, and narrative memory over time.
+
+The system is not a generative co-writer, but a narrative assistant that collaborates with a human operator. Writers and showrunners use it to validate ideas, enforce tone and world rules, ensure character continuity, and surface structural or thematic risks. Rather than replacing creativity, it enhances human-led storytelling with deep, document-aware intelligence.
+
+This section walks through how **StudioSync** supports development from **initial pitch to season-level treatment** by aligning documents, providing feedback, and answering queries across the full arc of production.
 
 --
+
+### **2.2. Cognitive Division of Labor**
+
+**StudioSync** is a **human-first, human-last system**. Human-authored documents provide essential context, definitions, and constraints to guide AI behavior. The system doesn't replace human judgment but reflects and reinforces it by identifying potential inconsistencies (e.g., continuity errors) or patterns (e.g., repetitive arcs) that creators can then evaluate, reject, or build upon with greater clarity.   
+
+The system is designed around a clear division of cognitive labor, where humans and AI components can leverage their relative strength:
+
+**Human Strengths**
+- Creative Direction & Taste	
+- Narrative Intuition & Empathy	
+- Strategic Decision-Making	
+- Emotional & Tonal Judgment	
+- Flexibility & Lateral Thinking
+
+**AI Strengths**
+- Pattern Recognition & Drift Detection
+- Memory & Recall
+- Structural Consistency Enforcement
+- Coverage Mapping & Gap Analysis
+- Search & Iteration
+
+**StudioSync** reduces the cognitive load on creators, creating room for more ambitious, dynamic, and impactful stories.
+
+---
+
+### **2.3. System Architecture & Technology**
+
+**StudioSync** combines a powerful language model with an intelligent memory layer to overcome the limitations of standalone LLMs as creative task assistants. This architecture enables rich, responsive storytelling support grounded in concrete project documents.
+
+Language Model (**GPT-5**): Handles language generation, narrative reasoning, and pattern recognition. Detects plot holes, repetition, character imbalance, and stagnation in roles and relationships. Output is informed by **human-authored** decisions, priorities, and goals.
+
+Memory & Retrieval Layer: Development documents are embedded and indexed for fast, context-aware retrieval during any interaction.
+
+Prompt Design & Chaining: Prompts are structured to guide the model using relevant retrieved information, enforce consistency, and support follow-up questions, feedback, or revisions.
+
+Document Format: All source documents are written in lightweight, human-readable Markdown, to simulate a real-world use case. No specialized tools or technical formatting.
+
+Together, these components form a cognitive memory layer that supports:
+
+- Long-term recall of characters, arcs, tone, and structure
+
+- Real-time feedback on consistency, coverage, and creative rules
+
+- Flexible querying across episodes, scenes, and development goals
+
+**StudioSync** is designed to **support**, not replace, **human creativity**. This HITL system delivers **structured memory, narrative reasoning,** and **informed feedback** without compromising creative control.
+
+---
+
+### **2.4. Real-World Use Case & Demo Roadmap**
+
+---
+
+## **3. Real-World Use Case & Demo**
+
+---
+
+### **Real-World Use Case Defined**
+
+---
 
 #### **3.1.1. Use Case: Premise**				
 The human operator will be using **StudioSync** as a support system to develop a 10-episode treatment (with pilot) for a complex, chaos-driven dark comedy series in the vein of *It’s Always Sunny in Philadelphia*. 
