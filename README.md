@@ -152,9 +152,131 @@ Effective AI-assisted creative tools must divide cognitive labor according to re
 ### **2.4. Demo Roadmap**
 ## **3. Demo with Real-World Use Case**
 ### **3.1 Real-World Use Case**
+
+--
+
 #### **3.1.1. Use Case: Premise**				
+The human operator will be using **StudioSync** as a support system to develop a 10-episode treatment (with pilot) for a complex, chaos-driven dark comedy series in the vein of *It’s Always Sunny in Philadelphia*. 
+
+The goal is to simulate the creative complexity and tonal unpredictability of a chaos-engine series using a single human operator supported by the **StudioSync** system.
+
+**Premise**: Seven sophisticated yet dysfunctional colleagues receive a large infusion of money and choose to devote their professional lives, and dubious skills, to solving societal problems in "The City" as full-time philanthropists.
+
+**Narrative Scope & Creative Goals**:
+- Ensemble cast of seven primary characters with defined motivations, skillsets, and personality traits.
+- No lead protagonist; shifting POV; episodic structure with light serialization.
+- A pilot episode that introduces the characters and premise organically. 
+- Chaos-engine with high-dynamism: narrative roles, alliances, conflicts, and goals must frequently shift. 
+- Relatively equal screen time and story relevance across all seven characters.
+- Pairings and groupings must vary to avoid repetition and explore different dynamics.
+- All seven primary characters must contribute meaningfully to each episode.
+- Adherence to narrative rules: the protagonists must never grow, take accountability, or leave a situation better than they found it.
+- Episodes must reach a clear resolution in 35 to 40 minutes of run time.
+- The system will provide feedback, flags, and structured evaluations informed by **human-authored** design documents.
+
+---
+
 #### **3.1.2. Use Case: Documents**
+
+At the heart of **StudioSync** is the use of **standard studio narrative documents** in **markdown**, not specially structured JSON or YAML formats. This decision prioritizes **real-world compatibility** and **reduces adoption friction**.
+
+The system's evaluations and responses to queries will be informed by these structured documents:
+
+- **Studio Mandate**: Defines studio priorities in terms of genre, target audience, structure, business alignment, and other decision factors. 
+- **Series Pitches**: Concise pitches directed toward the studio, structured to meet submission guidelines.
+- **Series Bible**: Captures premise, genre, tone, world rules, and overarching story engines, including explicit and implicit narrative constraints such as mandates, forbidden devices, and structural guardrails.
+- **Character Bible**: Profiles detailing background, personality, motivations, weaknesses, relationships, factual details (age, eye color), and character arcs. 
+- **Episode Summaries (Season 1)**: Short synopses capturing the key events and thematic beats for each episode.
+- **Pilot Outlines**: Expanded Episode Outlines, to evaluate the episodes as a potential pilot.
+- **Episode Outlines (Season 1)**: Structured outlines (acts/beats) for each episode, used to determine script readiness. The system scores these outlines based on adherence to narrative structure and signals readiness to proceed with full script development.
+- **Episode Outlines (Season 2)**: Structured episode outlines, same as season 1, but this new batch of episodes can also use season 1 as a reference for multi-season arcs, redundancy flags, continuity checks, and setup/payoff.
+ 
+These documents **anchor** the system’s **conversational knowledge base**, providing the structural and thematic foundation for all subsequent interactions. 
+
+To depict a realistic workflow, relevant docs will inform the system's responses at different stages. To reflect the realistic growth and sharpening of a long-form creative work, some documents that were inputs at an early stage become reference docs at later stages:
+
+**Reference Document**: A previously-ingested creative artifact that serves as persistent context for evaluation, query, or guidance. These are the rules, structures, and priorities that inform evaluation of inputs.
+**Examples:**
+- **Studio Mandate**
+- **Series Bible**
+- **Character Bible**
+
+**Structured Input**: A document or artifact submitted in a template-specific format so the system can perform formal evaluation, coverage, structured scoring, and provide a soft greenlight or flag issues for revision.
+**Examples:**
+- **Series Pitches - Stage 1**  
+- **Episode Outlines (Season 1) - Stage 2**
+- **Episode Outlines (Season 2) - Stage 3**
+
+**Unstructured Input**: Natural language queries or unstructured concepts. Responses to these inputs are informed by reference docs to provide feedback, exploration, iteration, or idea validation.
+**Examples:**
+- **Character Utilization** "Do all seven ensemble characters contribute meaningfully to this episode? Which characters are drivers? Which are foils?"
+- **Continuity** "What foods did we establish that Faye is allergic to?"
+- **Arc Summary** "Describe how Faye's arc plays out across the ten episode season, as a whole."
+- **Coverage** "Does the pilot episode introduce the main characters, and the premise, organically?"
+- **Structure** "Are there specific rules for how episodes should begin and end? What are they?"
+
+**Stage 1: Early Development - Ideation & Pitching**
+At this stage we have pitches, as input, to be evaluated against studio requirements, as reference.
+- **Reference Documents**: Studio Mandate
+- **Structured Input**: Series Pitches
+- **Unstructured Input**: "What are the studio's submission guidelines? Explain in detail."
+  
+**Stage 2: Mid Development Series & Episode Design**
+At this stage writing is underway. We have a full Series Bible and Character Bible for added reference, and these docs can continue to grow and change as specifics are ironed out. Ideas will crystalize into 10 episodes, with a clear pilot, by the end of this stage. 
+- **Reference Documents**: Studio Mandate, Series Pitch, Series Bible, Character Bible
+- **Structured Input**: Episode Outlines - Season 1, Pilot Outlines
+- **Unstructured Input**: "What if we did an episode where two of the main characters go on a road trip and the other five are not in this episode? Is this a good concept? Let's explore."
+  
+**Stage 3: Late Development** — Season Treatment & Holistic Evaluation
+At this stage the season treatment is at least tentatively complete. We can add our pilot episode, additional episode outlines, and episode summaries to the referenced documents. We now have the entire season 1 treatment in reference, allowing us to answer high-level queries on the full body of work. These documents will also enhance our workflow even further when we approach season 2.
+**Reference Documents**: Studio Mandate, Series Pitch, Series Bible, Character Bible, Episode Outlines, Episode Outlines - Season 1, Episode Summaries - Season 1
+**Structured Input**: Episode Outlines - Season 2
+**Unstructured Input**: "Does this treatment, as a whole, align with our target audience? Why or why not?"
+
+While this demonstration uses studio-style creative documents, each implementation will vary depending on the domain and creative goals. Alternate use cases include:
+
+- **Technical blueprints** for engineering and product design.
+- **Company guidelines** for internal communications or knowledge management.
+- **World-building documents** for complex IPs in fantasy, science-fiction, or alternate history.
+
+The broader goal is to iteratively transform **static documents** into a **conversational knowledge layer** that **augments human creativity** without disrupting established workflows.
+
+---
+
 #### **3.1.3. Use Case: Human Operator**
+
+This use case for **StudioSync** was conducted by a **single human operator**: a technically proficient creative with interdisciplinary experience across **AI/ML, software engineering, HITL system design, teaching, writing, comedy,** and **technical communication**. The operator brings a broad, practical understanding of narrative techniques, creative development, project management, and system-level analysis.  
+
+**The operator is not a professional screenwriter**, nor formally trained in television writing. This distinction is important when evaluating how system performance might generalize to **professional creative teams**.
+
+**Personal Resources:**
+
+- Formally trained English teacher with understanding of narrative structures, pacing, theme, and tone
+
+- Award-winning technical communicator
+
+- Experience with LLM customization, cognitive system design, and HITL workflows
+
+- Experience with short-form comedy writing (setup, payoff, timing, punchline calibration)
+
+- Close attention to throughlines, cohesion, dynamism, structure, and narrative impact
+
+**Personal Constraints:**
+
+- Not a professional screenwriter (no formal training or studio experience)
+
+- Limited familiarity with standardized TV writing terminology or formatting conventions beyond project research
+
+- Limited experience with scriptwriting tools 
+
+- No team writing experience for episodic media
+
+- Development time constraint: 160 hours.
+
+This implementation reflects what a single **proficient but non-professional writer** can achieve with **StudioSync**. With a team of trained professionals the system’s impact could **scale significantly**.
+
+---
+
 ### **3.2: Pre-Production Evaluation**
 #### **3.2.1. Misaligned Pitch Sample**
 #### **3.2.2. Aligned Pitch Sample**
