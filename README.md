@@ -105,7 +105,7 @@ Even professional writers’ rooms lack a shared memory layer. Solo creators hav
 
 ---
 
-### **1.3. LLMs as HITL/HFHL Creative Tools**
+### **1.3. AI as a Creative Tool**
 
 LLMs bring meaningful strengths to the writing room. They're fast, tireless **iterators**, and multi-dimensional **pattern recognizers**. They excel at **short and mid-range context**: a scene, a document, a pattern of events that fits their limited context window. They can **recognize** and **emulate** tone, style, and structure within the bounds of their training and context window. 
 
@@ -137,10 +137,6 @@ Effective AI-assisted creative tools must divide cognitive labor according to re
 
 **StudioSync** is a **HITL/HFHL** (human-in-the-loop/human-first, human-last), retrieval-augmented cognitive assistant designed to tackle the immense complexity of **long-form narrative development at scale**. By ingesting conventional **studio documents** and leveraging **GPT-5** with advanced retrieval techniques, it offers writers and studios an **intelligent memory layer**, **consistency enforcement**, and **nuanced storytelling support**. This customization empowers **smarter, faster creative workflows** that **align** with **high-level structures** and **long-term goals**. Unlike AI-powered tools that produce "AI slop", **StudioSync** focuses on *narrative cognition* rather than autocomplete, bridging **human creativity** and **AI precision**.
 
----
-
-### **2.1. Real-World Use Case**
-
 Long-form storytelling demands consistency, clarity, and creative evolution across dozens of documents and decisions. **StudioSync** operates within an established TV development pipeline, ingesting studio-native documents (like pitches, character bios, and episodes) to support creative iteration, structural validation, and narrative memory over time.
 
 The system is not a generative co-writer, but a narrative assistant that collaborates with a human operator. Writers and showrunners use it to validate ideas, enforce tone and world rules, ensure character continuity, and surface structural or thematic risks. Rather than replacing creativity, it enhances human-led storytelling with deep, document-aware intelligence.
@@ -149,7 +145,7 @@ This section walks through how **StudioSync** supports development from **initia
 
 --
 
-### **2.2. Cognitive Division of Labor**
+### **2.1. Cognitive Division of Labor**
 
 **StudioSync** is a **human-first, human-last system**. Human-authored documents provide essential context, definitions, and constraints to guide AI behavior. The system doesn't replace human judgment but reflects and reinforces it by identifying potential inconsistencies (e.g., continuity errors) or patterns (e.g., repetitive arcs) that creators can then evaluate, reject, or build upon with greater clarity.   
 
@@ -173,7 +169,7 @@ The system is designed around a clear division of cognitive labor, where humans 
 
 ---
 
-### **2.3. System Architecture & Technology**
+### **2.2. System Architecture & Technology**
 
 **StudioSync** combines a powerful language model with an intelligent memory layer to overcome the limitations of standalone LLMs as creative task assistants. This architecture enables rich, responsive storytelling support grounded in concrete project documents.
 
@@ -197,7 +193,7 @@ Together, these components form a cognitive memory layer that supports:
 
 ---
 
-### **2.4. Demo Roadmap**
+### **2.3. Demo Roadmap**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 **StudioSync** is not a generative AI writing assistant. The system provides a shared **memory layer for distributed teams**, a centralized knowledge base that preserves updates, versioning, and cross-episode references at every stage of development.
@@ -224,18 +220,15 @@ Our real world use case will demonstrate how **StudioSync** integrates into an e
 
 ---
 
-## **3. Real-World Use Case & Demo**
+## **3. Real-World Use Case**
 
----
-
-### 3.1 **Real-World Use Case Defined**
 The human operator will be using **StudioSync** as a support system to develop a 10-episode treatment (with pilot) for a complex, chaos-driven dark comedy series in the vein of *It’s Always Sunny in Philadelphia*. 
 
 The goal is to simulate the creative complexity and tonal unpredictability of a chaos-engine series using a single human operator supported by the **StudioSync** system.
 
 ---
 
-#### **3.1.1. Use Case: Premise**				
+### 3.1 **Use Case: Premise**	
 
 **Premise**: Seven sophisticated yet dysfunctional colleagues receive a large infusion of money and choose to devote their professional lives, and dubious skills, to solving societal problems in "The City" as full-time philanthropists.
 
@@ -253,7 +246,7 @@ The goal is to simulate the creative complexity and tonal unpredictability of a 
 
 ---
 
-#### **3.1.2. Use Case: Documents**
+### **3.2. Use Case: Documents**
 
 At the heart of **StudioSync** is the use of **standard studio narrative documents** in **markdown**, not specially structured JSON or YAML formats. This decision prioritizes **real-world compatibility** and **reduces adoption friction**.
 
@@ -348,7 +341,7 @@ The broader goal is to iteratively transform **static documents** into a **conve
 
 ---
 
-#### **3.1.3. Use Case: Human Operator**
+### **3.3. Use Case: Human Operator**
 
 This use case for **StudioSync** was conducted by a **single human operator**: a technically proficient creative with interdisciplinary experience across **AI/ML, software engineering, HITL system design, teaching, writing, comedy,** and **technical communication**. The operator brings a broad, practical understanding of narrative techniques, creative development, project management, and system-level analysis.  
 
@@ -382,173 +375,203 @@ This implementation reflects what a single **proficient but non-professional wri
 
 ---
 
-### **3.2: Pre-Production Evaluation**
+## **4: Stage 1: Early Development – Ideation & Pitching**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.2.1. Misaligned Pitch Sample**
+### **4.1. Misaligned Pitch Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.2.2. Aligned Pitch Sample**
+### **4.2. Stage 1 Queries**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.2.3. Pre-Production Queries**
+### **4.3. Aligned Pitch Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-### **3.3. Unstructured Concept Evaluation**
+## **5. Stage 2: Mid Development – Writers’ Room**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.3.1. Misaligned Concept Sample**
+### **5.1. Misaligned Concepts**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.3.2. Aligned Concept Sample**
+### **5.2. Stage 2 Concept Queries**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.3.3. Concept-Level Queries**
+### **5.3. Aligned Concepts**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-### **3.4: Episode Evaluation**
+### **5.4. Initial Episode 102 Outline Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.4.1. Misaligned Episode Sample**
+### **5.5. Stage 2 Episode 102 Outline Queries**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.4.2. Aligned Episode Sample**
+### **5.6. Revised Episode 102 Outline Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.4.3. Episode-Level Queries**
+### **5.7. Initial Pilot 101 Outline Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-### **3.5. Pilot Evaluation**
+### **5.8. Stage 2 Pilot 101 Outline Queries**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.5.1. Misaligned Pilot Sample**
+### **5.9. Revised Pilot 101 Outline Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.5.2. Aligned Pilot Sample**
+## **6. Late Development – Full Season & Draft Scripts**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.5.3. Pilot-Level Queries**
+### **6.1. Initial Draft Script 101 Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-### **3.6. Full 10-Episode Treatment Evaluation**
+### **6.2. Stage 3 Queries**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.6.1. Misaligned 10-Episode Treatment Sample**
+### **6.3. Revised Draft Script 101 Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.6.2. Aligned 10-Episode Treatment Sample**
+## **7. Stage 4: Finalization – Table Reads & Locked Scripts**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-#### **3.6.3. Treatment-Level Queries**
+### **7.1. Initial Final Script 101 Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-## **4. Conclusion**
+### **7.2. Stage 4 Queries**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-### 4.1. **Value for Studios**
+### **7.3. Revised Final Script 101 Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-### 4.2. **Value for Showrunner**
+## **8. Stage 5: Season 2 & Beyond - Continuity & Future Planning**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-### 4.3. **Value for Writers**
+### **8.1. Initial Episode 201 Evaluation**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-### 4.4. **Value Across Industries**
+### **8.2. Stage 5 Queries**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-## 5. System Design & Architecture
+### **8.3. Revised Episode 201 Evaluation**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
+## **9. Conclusion**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
+### 9.1. **Value for Studios**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
+### 9.2. **Value for Showrunner**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
+### 9.3. **Value for Writers**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
+### 9.4. **Value Across Industries**
+*Updates pending to reflect migration to GPT-5, latest release.*
+
+---
+
+## **10. System Design & Architecture**
 
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-## 6. Data & Documents
+## **11. Data & Documents**
 
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-## 7. Evaluation & Metrics
+## **12. Evaluation & Metrics**
 
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-## 8. Future Work
+## **13. Future Work**
 
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-## 9. Technologies & Stack
+## **14. Technologies & Stack**
 
 *Updates pending to reflect migration to GPT-5, latest release.
 
 ---
 
-## 10. Citations & References
+## **15. Citations & References**
 
 *Updates pending to reflect migration to GPT-5, latest release.*
 
 ---
 
-## 11. Author
+## **16. Author**
 
 **Jeffrey Robert Lynch** [LinkedIn](https://www.linkedin.com/in/jeffrey-lynch-350930348)
 
 ---
 
-## 12. License
+## **17. License**
 
 This project is for educational and demonstration purposes only. For commercial use, please contact the author.
