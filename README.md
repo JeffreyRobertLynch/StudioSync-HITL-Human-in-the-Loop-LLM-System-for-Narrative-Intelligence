@@ -1,4 +1,4 @@
-# StudioSync HITL: Human-in-the-Loop LLM System for Narrative Intelligence
+# StudioSync HITL: LLM System for Narrative Intelligence
 
 StudioSync creates **conversational development documents** that help writers, showrunners, and studios manage the complexity of evolving stories across seasons, episodes, and distributed teams. Built on GPT-5, RAG, and cognitive design principles, it ingests real-world documents (character bios, beat sheets, episode summaries) and enables deep querying, contradiction checks, narrative reasoning, and evaluation of how changes ripple throughout the overall narrative work. 
 
