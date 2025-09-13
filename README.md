@@ -211,12 +211,27 @@ Our real world use case will demonstrate how **StudioSync** integrates into an e
 ---
 
 ## 3. **Real-World Use Case**
+This demo walks through how **StudioSync** supports long-form narrative development in a simulated real-world setting. It centers on a fictional series and tracks how the system handles creative inputs, development documents, and iterative revision across multiple phases.
+
+We begin with a **studio pitch**, move into **series and episode design**, then build toward a full **season treatment**. Along the way, we explore how human-authored documents become reference material, how StudioSync flags risks or inconsistencies, and how it enables better creative decisions at scale.
+
+The demo is driven by a single human operator acting as showrunner, supported by StudioSync’s narrative cognition tools. The following sections detail the **premise**, **document strategy**, and **human operator profile** that structure this walkthrough.
+
+> **Terminology**
+> - **HITL** (Human-in-the-Loop): A system where humans provide inputs, feedback, and make final decisions.
+> - **HFHL** (Human-First, Human-Last): Design philosophy where humans initiate and approve all creative direction.
+> - **Narrative Memory**: Accumulated system knowledge built from documents and decisions over time.
+> - **Reference Document**: Persistently-ingested doc used as memory context.
+> - **Structured Input**: A document submitted for formal evaluation.
+> - **Unstructured Input**: Natural language prompts and questions from the human user.
 
 ---
 
 ### 3.1 **Use Case: Premise**	
 
-**Premise**: Seven sophisticated yet dysfunctional colleagues receive a large infusion of money and choose to devote their professional lives, and dubious skills, to solving societal problems in "The City" as full-time philanthropists.
+To demonstrate StudioSync in a real-world development scenario, we simulate the creation of an original ensemble comedy series. This is a suitably complex goal for the system due to the combination of dynamism and structure, outlined below.
+
+**Premise**: Seven sophisticated yet dysfunctional colleagues receive a large infusion of money and choose to devote their dubious professional skills to solving societal problems in "The City" as full-time philanthropists.
 
 **Narrative Scope & Creative Goals**:
 - Ensemble cast of seven primary characters with defined motivations, skillsets, and personality traits.
