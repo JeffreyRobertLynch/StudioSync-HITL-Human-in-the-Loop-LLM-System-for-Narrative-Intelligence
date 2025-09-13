@@ -1,6 +1,6 @@
 # StudioSync HITL: LLM System for Narrative Intelligence
 
-StudioSync creates **conversational development documents** that help writers, showrunners, and studios manage the complexity of evolving stories across seasons, episodes, and distributed teams. Built on GPT-5, RAG, and cognitive design principles, it ingests real-world documents (character bios, beat sheets, episode summaries) and enables deep querying, contradiction checks, narrative reasoning, and evaluation of how changes ripple throughout the overall narrative work. 
+StudioSync creates **conversational development documents** that help writers, showrunners, and studios manage the complexity of evolving stories across seasons, episodes, and distributed teams. Built on GPT-5, RAG (retrieval-augmented generation), and cognitive design principles, it ingests real-world documents (character bios, beat sheets, episode summaries) and enables deep querying, contradiction checks, narrative reasoning, and evaluation of how changes ripple throughout the overall narrative work. 
 
 **It doesn’t write scripts.** 
 
@@ -12,7 +12,7 @@ It ensures stories, characters, arcs, and tone remain consistent no matter how c
 
 **The first and final voice is always human.** 
 
-**Note**: This project is undergoing updates to reflect migration from GPT-4.1 to GPT-5. System function remains similar; upcoming output will reflect improved capabilities.
+**Note**: This project is undergoing updates to reflect migration from GPT-4.1 to GPT-5.
 
 ---
 
@@ -81,7 +81,9 @@ Long-form storytelling is inherently challenging. Characters grow and regress. C
 
 In ensemble-driven productions with high dynamism and complexity (*It’s Always Sunny in Philadelphia*, *Arrested Development*, *Yellowjackets*) the challenge intensifies. Screen time must be balanced. Narrative roles (driver, enabler, foil) must rotate. On-screen pairings and groupings must also rotate to avoid repetition, explore relationships, and reveal new dynamics. Characters ally or fracture along different fault lines depending on the conflict. Writers must track these dynamic shifts across several matrices. 
 
-Every new draft, contribution, or last-minute change risks destabilizing the narrative's impact by breaking arcs, violating core rules, introducing plot holes, or eroding setup and payoff. Without systemic memory and narrative reasoning support, even the best teams introduce errors.
+Every new draft, contribution, or last-minute change risks destabilizing the narrative's impact by breaking arcs, violating core rules, introducing plot holes, or eroding setup and payoff. Without systemic memory and narrative reasoning support, even the best teams introduce errors. 
+
+This complexity is manageable, but only with robust, story-aware tooling that supports high-level narrative tracking.
 
 ---
 
@@ -100,7 +102,7 @@ Without tooling, these gaps can create ripple effects:
 - Core rules lose meaning due to rampant contradictions.
 - Narrative impact is diluted or lost.
 
-Even professional writers’ rooms lack a shared memory layer. Solo creators have even fewer options. Everyone is left relying on intuition, subjective interpretation, and scattered notes that may or may not be current.
+Even professional writers’ rooms lack a shared, structured memory layer. Teams are left relying on intuition, subjective interpretation, and scattered notes that may or may not be current or even canon.
 
 ---
 
@@ -108,7 +110,7 @@ Even professional writers’ rooms lack a shared memory layer. Solo creators hav
 
 LLMs bring meaningful strengths to the writing room. They're fast, tireless **iterators**, and multi-dimensional **pattern recognizers**. They excel at **short and mid-range context**: a scene, a document, a pattern of events that fits their limited context window. They can **recognize** and **emulate** tone, style, and structure within the bounds of their training and context window. 
 
-But they are not storytellers and they should not be used as such. 
+But they are not storytellers and should not be treated as replacements for human creative direction. 
 
 An LLM's function is not to tell a compelling story. Its function is to generate plausible output based on input. Like autocomplete with randomization. This makes it, by definition, **derivative** and **limited by training**. LLMs produce output that aligns with a pattern.
 
@@ -130,9 +132,13 @@ Effective AI-assisted creative tools must divide cognitive labor according to re
 
 **Human creators**, and their cognitive strengths, **must lead the creative effort** and **determine the final output**. Humans decide **what matters**. Machines support the process through **querying, tracking, pattern recognition,** and **feedback** aligned with priorities and structure **designated by humans**.
 
+Let’s explore how StudioSync turns these insights into a working system.
+
 ---
 
 ## **2. Solution Overview**
+
+**StudioSync** doesn’t replace writers. It protects their vision.
 
 **StudioSync** is a **HITL/HFHL** (human-in-the-loop/human-first, human-last), retrieval-augmented cognitive assistant designed to tackle the immense complexity of **long-form narrative development at scale**. By ingesting conventional **studio documents** and leveraging **GPT-5** with advanced retrieval techniques, it offers writers and studios an **intelligent memory layer**, **consistency enforcement**, and **nuanced storytelling support**. This customization empowers **smarter, faster creative workflows** that **align** with **high-level structures** and **long-term goals**. Unlike AI-powered tools that produce "AI slop", **StudioSync** focuses on *narrative cognition* rather than autocomplete, bridging **human creativity** and **AI precision**.
 
@@ -150,19 +156,14 @@ This section walks through how **StudioSync** supports development from **initia
 
 The system is designed around a clear division of cognitive labor, where humans and AI components can leverage their relative strength:
 
-**Human Strengths**
-- Creative Direction & Taste	
-- Narrative Intuition & Empathy	
-- Strategic Decision-Making	
-- Emotional & Tonal Judgment	
-- Flexibility & Lateral Thinking
+| **Human Strengths**                         | **AI Strengths**                             |
+|---------------------------------------------|-----------------------------------------------|
+| Creative Direction & Taste                  | Pattern Recognition & Drift Detection         |
+| Narrative Intuition & Empathy               | Memory & Recall                               |
+| Strategic Decision-Making                   | Structural Consistency Enforcement            |
+| Emotional & Tonal Judgment                  | Coverage Mapping & Gap Analysis               |
+| Flexibility & Lateral Thinking              | Search & Iteration                            |
 
-**AI Strengths**
-- Pattern Recognition & Drift Detection
-- Memory & Recall
-- Structural Consistency Enforcement
-- Coverage Mapping & Gap Analysis
-- Search & Iteration
 
 **StudioSync** reduces the cognitive load on creators, creating room for more ambitious, dynamic, and impactful stories.
 
@@ -216,6 +217,25 @@ With a complete 10-episode treatment in place, the system now provides holistic 
 **Focus:** Continuity, coverage, setup/payoff, season-level coherence, arcs
 
 Our real world use case will demonstrate how **StudioSync** integrates into an established workflow to assist writers and showrunners. At each stage, you'll see misaligned and aligned examples, followed by natural language queries that showcase the system’s ability to reason, recall, and respond—all while preserving the creative voice and goals of the human team.
+
+---
+
+### 2.3. Demo Roadmap
+
+*Note: Updates are underway to reflect migration to GPT-5. System functionality remains consistent; upcoming demos will showcase enhanced capabilities.*
+
+StudioSync is not a generative co-writer. It’s a shared **narrative memory system** that supports writers and showrunners through every stage of a television series’ lifecycle—from pitch to renewal. This roadmap previews each stage of the workflow that the demo simulates.
+
+Each phase features a **misaligned example**, followed by a **revised version**, then a **series of natural language queries** to showcase how the system evaluates tone, structure, and alignment with established story elements. Every creative step leaves a trace—turning approved drafts into reference material for future stages.
+
+| **Stage**   | **Development Phase**                                          | **Focus & System Contribution**                                                                                                                                                                                                                                                                                                                |
+| ----------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stage 1** | **Early Development – Ideation & Pitching**                    | The system evaluates the series pitch for alignment with studio priorities. It flags mismatches in tone, premise, or audience targeting, and suggests revision areas to meet submission goals. <br><br>**System Value:** Studio alignment, narrative framing, submission readiness, tone/genre cohesion.                                           |
+| **Stage 2** | **Mid Development – Writers’ Room & Series Design**            | Writers expand on the concept with character bibles, episode plans, and pilot outlines. The system ensures internal consistency, character motivation, world rules, and arc progression. <br><br>**System Value:** Cross-doc consistency, dynamic role tracking, pilot structure analysis, creative rule enforcement.                              |
+| **Stage 3** | **Late Development – Drafts & Season-Level Cohesion**          | With a full season arc emerging, the system checks for arc progression, setup/payoff resolution, tonal drift, and emerging redundancies. Initial drafts are stress-tested for alignment and depth. <br><br>**System Value:** Season-level evaluation, redundancy detection, thematic cohesion, relationship development.                           |
+| **Stage 4** | **Finalization – Table Reads & Locked Scripts**                | StudioSync helps track changes during finalization. As late-stage rewrites, table read feedback, and scene swaps occur, the system checks for unintended narrative damage (e.g., dropped setups or tonal mismatches). <br><br>**System Value:** Regression detection, script polishing support, dialogue-level feedback, micro-iteration tracking. |
+| **Stage 5** | **Season 2 & Beyond – Narrative Continuity & Future Planning** | StudioSync surfaces unresolved threads, long-term growth potential, and timeline conflicts to support new season planning. Past materials act as high-fidelity memory to inform future drafts. <br><br>**System Value:** Continuity recall, multi-season arc tracking, future-proofing, opportunity discovery.                                     |
+
 
 ---
 
