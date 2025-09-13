@@ -28,7 +28,7 @@ It ensures stories, characters, arcs, and tone remain consistent no matter how c
   - [2.3. Demo Roadmap](#23-demo-roadmap)
 - [3. Real-World Use Case](#3-real-world-use-case)
   - [3.1. Use Case: Premise](#31-use-case-premise)
-  - [3.2. Use Case: Documents](#32-use-case-documents)
+  - [3.2. Use Case: Documents & Staging](#32-use-case-documents-&-staging)
   - [3.3. Use Case: Human Operator](#33-use-case-human-operator)
 - [4. Stage 1: Early Development – Ideation & Pitching](#4-stage-1-early-development--ideation--pitching)
   - [4.1. Misaligned Pitch Evaluation](#41-misaligned-pitch-evaluation)
@@ -211,43 +211,44 @@ Our real world use case will demonstrate how **StudioSync** integrates into an e
 ---
 
 ## 3. **Real-World Use Case**
-This demo walks through how **StudioSync** supports long-form narrative development in a simulated real-world setting. It centers on a fictional series and tracks how the system handles creative inputs, development documents, and iterative revision across multiple phases.
 
-We begin with a **studio pitch**, move into **series and episode design**, then build toward a full **season treatment**. Along the way, we explore how human-authored documents become reference material, how StudioSync flags risks or inconsistencies, and how it enables better creative decisions at scale.
+This demo illustrates how **StudioSync** supports long-form narrative development in a simulated professional environment. It centers on a fictional TV series and tracks how the system engages with creative documents, human input, and iterative feedback across the full development cycle.
 
-The demo is driven by a single human operator acting as showrunner, supported by StudioSync’s narrative cognition tools. The following sections detail the **premise**, **document strategy**, and **human operator profile** that structure this walkthrough.
+We begin with a **studio pitch**, progress through **series and episode design**, and build toward a complete **season treatment**. Along the way, we show how human-authored documents become persistent memory, how StudioSync surfaces narrative risks, and how it enables better creative decisions through structured, document-aware reasoning.
 
-> **Terminology**
-> - **HITL** (Human-in-the-Loop): A system where humans provide inputs, feedback, and make final decisions.
-> - **HFHL** (Human-First, Human-Last): Design philosophy where humans initiate and approve all creative direction.
-> - **Narrative Memory**: Accumulated system knowledge built from documents and decisions over time.
-> - **Reference Document**: Persistently-ingested doc used as memory context.
-> - **Structured Input**: A document submitted for formal evaluation.
-> - **Unstructured Input**: Natural language prompts and questions from the human user.
+The process is led by a single human operator acting as showrunner, supported by StudioSync’s narrative cognition tools. The following sections outline the creative **premise**, document **strategy**, and **human operator profile** that anchor the walkthrough.
 
----
-
-### 3.1 **Use Case: Premise**	
-
-To demonstrate StudioSync in a real-world development scenario, we simulate the creation of an original ensemble comedy series. This is a suitably complex goal for the system due to the combination of dynamism and structure, outlined below.
-
-**Premise**: Seven sophisticated yet dysfunctional colleagues receive a large infusion of money and choose to devote their dubious professional skills to solving societal problems in "The City" as full-time philanthropists.
-
-**Narrative Scope & Creative Goals**:
-- Ensemble cast of seven primary characters with defined motivations, skillsets, and personality traits.
-- No lead protagonist; shifting POV; episodic structure with light serialization.
-- A pilot episode that introduces the characters and premise organically. 
-- Chaos-engine with high-dynamism: narrative roles, alliances, conflicts, and goals must frequently shift. 
-- Relatively equal screen time and story relevance across all seven characters.
-- Pairings and groupings must vary to avoid repetition and explore different dynamics.
-- All seven primary characters must contribute meaningfully to each episode.
-- Adherence to narrative rules: the protagonists must never grow, take accountability, or leave a situation better than they found it.
-- Episodes must reach a clear resolution in 35 to 40 minutes of run time.
-- The system will provide feedback, flags, and structured evaluations informed by **human-authored** design documents.
+> **Key Terminology**
+> - **HITL** *(Human-in-the-Loop)*: A system where humans guide, interpret, and make final creative decisions.
+> - **HFHL** *(Human-First, Human-Last)*: Design philosophy where humans initiate and approve all creative outputs.
+> - **Narrative Memory**: System knowledge that accumulates through ingested documents and prior decisions.
+> - **Reference Document**: A previously-ingested document used as persistent memory context.
+> - **Structured Input**: A formally submitted doc evaluated for alignment and readiness.
+> - **Unstructured Input**: Freeform user queries and prompts for analysis, feedback, or iteration.
 
 ---
 
-### **3.2. Use Case: Documents**
+### 3.1 **Use Case: Premise**
+
+To demonstrate StudioSync in action, we simulate the development of an original ensemble comedy. This creative goal was chosen for its high narrative complexity, requiring a balance of structural precision and dynamic character interactions.
+
+> **Premise**: Seven sophisticated yet dysfunctional colleagues receive a large infusion of money and choose to apply their dubious professional skills to solving societal problems in “The City” — as full-time philanthropists.
+
+**Narrative Scope & Creative Goals:**
+- Ensemble cast of seven primary characters, each with distinct motivations, skills, and personalities.
+- No central protagonist; shifting POV with episodic structure and light serialization.
+- A pilot episode that introduces characters and premise without exposition dumps.
+- Role fluidity: narrative alliances, conflicts, and goals must shift frequently.
+- Equal story relevance across all seven characters; no narrative dead weight.
+- Character groupings and dynamics must rotate to avoid repetition.
+- Each episode must meaningfully involve all seven core characters.
+- World rules: protagonists must never grow, take accountability, or improve any situation.
+- Episode length: 35–40 minutes with a clear resolution each time.
+- StudioSync augments development by providing document-aware feedback, risk flags, and structural evaluations at every stage.
+
+---
+
+### **3.2. Use Case: Documents & Staging**
 
 At the heart of **StudioSync** is the use of **standard studio narrative documents** in **markdown**, not specially structured JSON or YAML formats. This decision prioritizes **real-world compatibility** and **reduces adoption friction**.
 
