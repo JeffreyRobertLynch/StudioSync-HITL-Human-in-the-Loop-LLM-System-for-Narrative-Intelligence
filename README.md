@@ -196,37 +196,7 @@ Together, these components form a cognitive memory layer that supports:
 ### **2.3. Demo Roadmap**
 *Updates pending to reflect migration to GPT-5, latest release.*
 
-**StudioSync** is not a generative AI writing assistant. The system provides a shared **memory layer for distributed teams**, a centralized knowledge base that preserves updates, versioning, and cross-episode references at every stage of development.
-
-**Stage 1: Early Development – Ideation & Pitching**
-
-We begin with the series pitch, evaluated for alignment with a fictional studio mandate. This stage introduces the system’s ability to reflect studio priorities and flag potential mismatches in tone, premise, or audience alignment.
-
-**Focus:** Studio priority alignment, submission readiness, early-stage queries, target audience
-
-**Stage 2: Mid Development – Series & Episode Design**
-
-As the project advances, the system incorporates growing series and character bibles as more elements become canon. Here, we demonstrate how **StudioSync** handles more structured storytelling elements, enforcing consistency and surfacing issues across character arcs, episode structure, and pilot readiness.
-
-**Focus:** Structured episode evaluation, character consistency, pilot development, concept exploration, rule adherence, run time
-
-**Stage 3: Late Development – Season Treatment & Holistic Evaluation**
-
-With a complete 10-episode treatment in place, the system now provides holistic analysis to track long-term arcs, redundancy risks, tone, and unresolved threads. We also simulate early Season 2 planning to show how **StudioSync** builds on accumulated knowledge over time.
-
-**Focus:** Continuity, coverage, setup/payoff, season-level coherence, arcs
-
-Our real world use case will demonstrate how **StudioSync** integrates into an established workflow to assist writers and showrunners. At each stage, you'll see misaligned and aligned examples, followed by natural language queries that showcase the system’s ability to reason, recall, and respond—all while preserving the creative voice and goals of the human team.
-
----
-
-### 2.3. Demo Roadmap
-
-*Note: Updates are underway to reflect migration to GPT-5. System functionality remains consistent; upcoming demos will showcase enhanced capabilities.*
-
-StudioSync is not a generative co-writer. It’s a shared **narrative memory system** that supports writers and showrunners through every stage of a television series’ lifecycle—from pitch to renewal. This roadmap previews each stage of the workflow that the demo simulates.
-
-Each phase features a **misaligned example**, followed by a **revised version**, then a **series of natural language queries** to showcase how the system evaluates tone, structure, and alignment with established story elements. Every creative step leaves a trace—turning approved drafts into reference material for future stages.
+**StudioSync** provides a shared **memory layer for distributed teams**, a centralized knowledge base that preserves updates, versioning, and cross-episode references at every stage of development.
 
 | **Stage**   | **Development Phase**                                          | **Focus & System Contribution**                                                                                                                                                                                                                                                                                                                |
 | ----------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -236,14 +206,7 @@ Each phase features a **misaligned example**, followed by a **revised version**,
 | **Stage 4** | **Finalization – Table Reads & Locked Scripts**                | StudioSync helps track changes during finalization. As late-stage rewrites, table read feedback, and scene swaps occur, the system checks for unintended narrative damage (e.g., dropped setups or tonal mismatches). <br><br>**System Value:** Regression detection, script polishing support, dialogue-level feedback, micro-iteration tracking. |
 | **Stage 5** | **Season 2 & Beyond – Narrative Continuity & Future Planning** | StudioSync surfaces unresolved threads, long-term growth potential, and timeline conflicts to support new season planning. Past materials act as high-fidelity memory to inform future drafts. <br><br>**System Value:** Continuity recall, multi-season arc tracking, future-proofing, opportunity discovery.                                     |
 
-
----
-
-## **3. Real-World Use Case**
-
-The human operator will be using **StudioSync** as a support system to develop a 10-episode treatment (with pilot) for a complex, chaos-driven dark comedy series in the vein of *It’s Always Sunny in Philadelphia*. 
-
-The goal is to simulate the creative complexity and tonal unpredictability of a chaos-engine series using a single human operator supported by the **StudioSync** system.
+Our real world use case will demonstrate how **StudioSync** integrates into an established workflow to assist writers and showrunners. At each stage, you'll see misaligned and aligned examples, followed by natural language queries that showcase the system’s ability to reason, recall, and respond while preserving the creative voice and goals of the human team.
 
 ---
 
