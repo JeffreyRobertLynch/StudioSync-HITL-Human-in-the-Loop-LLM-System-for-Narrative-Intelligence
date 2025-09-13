@@ -248,7 +248,7 @@ To demonstrate StudioSync in action, we simulate the development of an original 
 
 ---
 
-### **3.2. Use Case: Documents & Staging**
+### **3.2. Use Case: Document Staging**
 
 At the heart of **StudioSync** is the use of **standard studio narrative documents** in **markdown**, not specially structured JSON or YAML formats. This decision prioritizes **real-world compatibility** and **reduces adoption friction**.
 
