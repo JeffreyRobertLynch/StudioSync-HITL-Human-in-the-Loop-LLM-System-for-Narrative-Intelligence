@@ -249,127 +249,113 @@ To demonstrate StudioSync in action, we simulate the development of an original 
 ---
 
 ### **3.2. Use Case: Document Staging**
+## 3.2 Use Case: Document Staging
 
-At the heart of **StudioSync** is the use of **standard studio narrative documents** in **markdown**, not specially structured JSON or YAML formats. This decision prioritizes **real-world compatibility** and **reduces adoption friction**.
+StudioSync is built to support real-world creative workflows using **standard narrative documents** in **human-readable Markdown** format, not proprietary schemas or structured APIs. These documents fuel the system’s ability to track continuity, enforce creative rules, and build a persistent memory layer over time.
 
-To depict a realistic workflow, relevant docs will inform the system's responses at every stage stage. These documents **anchor** the system’s **conversational knowledge base**, providing the structural and thematic foundation for all subsequent interactions. To reflect the realistic growth and sharpening of a long-form creative work, some documents that were inputs at an early stage become reference docs at later stages:
+This section introduces the **three document types**, and shows how documents evolve and accumulate across the **five development stages** of the series.
 
-**Reference Document**: Previously-ingested creative artifact that serve as persistent context for evaluation, query, or guidance. These form the rules, structures, and priorities that inform responses to inputs.
-**Examples:**
-- **Studio Mandate - Stages 1, 2 & 3**: Defines studio priorities in terms of genre, target audience, structure, business alignment, and other decision factors. 
-- **Series Bible - Stages 2 & 3**: Captures premise, genre, tone, world rules, and overarching story engines, including explicit and implicit narrative constraints such as mandates, forbidden devices, and structural guardrails.
-- **Character Bible - Stages 2 & 3**: Profiles detailing background, personality, motivations, weaknesses, relationships, factual details (age, eye color), and character arcs. 
-- **Episode Summaries - Stage 3**: Short synopses capturing the key events and thematic beats for each episode.
-- **Pilot - Stage 3**: Pilot episode candidates.
-- **Episodes (Season 1) - Stage 3**: Structured episodes (acts/beats).
+---
 
-**Structured Input**: Document or artifact submitted in a template-specific format so the system can perform formal evaluation, coverage, structured scoring, and provide a soft greenlight or flag issues for revision.
-**Examples:**
-- **Series Pitches - Stage 1**: Concise pitches directed toward the studio, structured to meet submission guidelines.
-- **Episodes (Season 1) - Stage 2**: Episodes in standard format for formal evaluation, resulting in readiness or revision.
-- **Pilot - Stage 2**: Episode formatted for pilot suitability evaluation.
-- **Episodes (Season 2) - Stage 3**: Structured episodes, same as season 1, but this new batch of episodes can also use season 1 episodes as a reference for multi-season arcs, redundancy flags, continuity checks, and setup/payoff.
+### Document Types & System Roles
 
-**Unstructured Input**: Natural language query or concept. Responses to these inputs are informed by reference docs to provide feedback, exploration, iteration, or idea validation.
-**Examples:**
-- **Character Utilization** "Do all seven ensemble characters contribute meaningfully to this episode? Which characters are drivers? Which are foils?"
-- **Continuity** "What foods did we establish that Faye is allergic to?"
-- **Arc Summary** "Describe how Faye's arc plays out across the ten episode season, as a whole."
-- **Coverage** "Does the pilot episode introduce the main characters, and the premise, organically?"
-- **Structure** "Are there specific rules for how episodes should begin and end? What are they?"
+StudioSync works with three categories of documents, each playing a distinct role in the system:
 
-**Development Stages & Document Flow**
-Each development stage introduces new documents as inputs and promotes others to reference status. This reflects how long-form work evolves over time. Ideas are sharpened, canon solidifies, and the creative system becomes more knowledgeable.
+| Document Type       | Definition                                                                 | System Role                                                                                     | Examples                                                                                 |
+|---------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| Reference Document  | A previously-ingested document that forms persistent memory and creative canon. | Enables recall, consistency checks, arc tracking, rule enforcement.                             | Studio mandate, series bible, character bible, finalized episodes, setup/payoff logs     |
+| Structured Input     | A document submitted in a structured format for formal evaluation.           | Evaluated for alignment, story logic, character coverage, tone, and readiness.                  | Pitches, pilot scripts, episode drafts, treatment docs                                   |
+| Unstructured Input   | Natural language prompt or idea exploration from the human operator.         | Used for feedback, issue flagging, creative iteration, or speculative reasoning.                | "Which characters are underused?" "Is this concept redundant with Ep 3?"                 |
 
-**Stage 1: Early Development - Ideation & Pitching**
-Initial pitches, evaluated for alignment with studio priorities.
-**Reference Documents**:
-- Studio Mandate
-**Structured Inputs**:
-- Series Pitches
-**Unstructured Inputs**:
-- "What are the studio's submission guidelines? Explain in detail."
-- “Does this logline align with our tone and genre targets?”
-  
-**Stage 2: Mid Development - Series & Episode Design**
-At this stage writing is underway. We now have a full Series Bible and Character Bible for added reference, and these docs can continue to grow and change as specifics are ironed out. Ideas will crystalize into 10 episodes, with a clear pilot, by the end of this stage. 
-**Reference Documents**:
-- Studio Mandate
-- Series Pitch
-- Series Bible
-- Character Bible
-**Structured Inputs**:
-- Episodes (Season 1)
-- Pilots
-**Unstructured Inputs**:
-- “What rules govern how episodes should begin and end?”
-- “Which main character is most motivated by greed?"
-- "What if we do an episode where the ensemble buy a boat and give it to charity? Does this have potential? Why or why not?"
-  
-**Stage 3: Late Development - Season Treatment & Holistic Evaluation**
-Now the season treatment is at least tentatively complete. We can add our pilot episode, additional episodes, and episode summaries to the referenced documents. We now have the entire season 1 treatment in reference, allowing us to answer high-level queries on the full body of work. These documents will also enhance our workflow even further when we approach season 2.
-**Reference Documents**: 
-- Studio Mandate
-- Series Pitch
-- Series Bible
-- Character Bible
-- Episodes
-- Episodes (Season 1)
-- Episode Summaries
-**Structured Inputs**: 
-- Episodes (Season 2)
-**Unstructured Inputs**: 
-- “What unresolved arcs carry over from Season 1 to 2?”
-- “Does Episode 10 deliver satisfying thematic closure?”
-- “Is this season 2 episode concept redundant with any episodes from season 1?”
+> **Note:** Structured inputs often become reference documents in later stages. This reflects how greenlit drafts become canon for future episodes or seasons.
 
-**Document Reuse & System Growth**
-By reusing documents as reference over time, **StudioSync** accumulates narrative memory. This supports:
-- Setup/payoff tracking
-- Tone and rule enforcement
-- Character consistency
-- Narrative evolution and risk management
-- Flagging of structural or thematic redundancy
-- Each new season or batch of episodes becomes easier to develop and validate as the system builds up its conversational knowledge base.
+---
 
-**Beyond Screenwriting**
-While this demo focuses on episodic comedy writing, **StudioSync** generalizes well to other use cases:
+### Document Lifecycle Across Stages
 
-**Engineering** – Blueprints, specs, system constraints, iterations
-**Product Development** – PRDs, user stories, QA reports, releases
-**World-Building** – Geography, timelines, lore bibles, canon events
+As development progresses, documents flow from input to reference, gradually forming the **narrative memory** that StudioSync relies on. This table maps document roles to each development stage:
 
-The broader goal is to iteratively transform **static documents** into a **conversational knowledge layer** that **augments human creativity** without disrupting established workflows.
+#### Document Roles by Development Stage
+
+| Stage      | Development Phase                           | Structured Inputs                                                    | Reference Documents                                                                                  | Becomes Canon?                                    |
+|------------|----------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| **Stage 1** | Early Development – Ideation & Pitching     | - Series Pitch                                                       | - Studio Mandate                                                                                      | Studio Mandate becomes reference               |
+|            |                                              |                                                                       |                                                                                                        | Approved Pitch becomes reference in Stage 2    |
+| **Stage 2** | Mid Development – Writers’ Room & Series Design | - Pilot Draft<br>- Episode Outlines<br>- Expanded Character Bios     | - Studio Mandate<br>- Series Pitch<br>- Evolving Series & Character Bibles                            | Series Bible & Characters formalized           |
+|            |                                              |                                                                       |                                                                                                        | Canon episodes begin to accumulate             |
+| **Stage 3** | Late Development – Season Treatment         | - Full Scripts (Season 1)<br>- Episode Summaries                     | - Series Bible<br>- Character Bible<br>- Approved Episodes<br>- Season Arc Summaries                  | Complete season becomes reference              |
+| **Stage 4** | Finalization – Table Reads & Locked Scripts | - Rewrites<br>- Scene Edits<br>- Dialogue Polish                     | - Locked Scripts<br>- Structural Notes<br>- Episode Feedback                                          | Locked episodes replace working drafts         |
+| **Stage 5** | Season 2 & Beyond – Future Planning          | - S2 Outlines<br>- Scripts<br>- Arc Maps<br>- World Expansion Docs   | - Season 1 Canon<br>- Timeline Events<br>- Character Histories<br>- Setup/Payoff Logs                 | Season 2 materials expand narrative memory      |
+
+---
+
+### Narrative Memory Over Time
+
+By converting final or greenlit materials into persistent reference documents, StudioSync builds up a long-term **narrative memory**. This enables the system to:
+
+- Detect dropped threads or unresolved arcs  
+- Enforce tone, structure, and world rules  
+- Identify duplicate or redundant episodes  
+- Track emotional dynamics and arc development  
+- Ensure setup/payoff consistency across seasons
+
+Each new document added to memory increases the system’s precision, responsiveness, and creative utility — without requiring retraining or manual indexing.
+
+---
+
+### Format Compatibility
+
+To ensure real-world usability, all documents in this demo are written in lightweight, readable **Markdown** instead of JSON, YAML, or other technical formats. This ensures:
+
+- Compatibility with existing creative workflows  
+- Easy editing by writers, not just engineers  
+- Clear versioning, changelogs, and comparison  
+- Simpler integration into review and collaboration tools
+
+This format keeps the human operator in control, while giving StudioSync the structure it needs to deliver grounded, document-aware feedback.
+
+---
+
+### Summary: What This Enables
+
+As documents evolve from speculative to approved, StudioSync grows more intelligent. Its ability to offer **informed narrative support** scales with the creative process itself — offering:
+
+- More reliable long-range feedback  
+- Reduced cognitive load on creators  
+- Faster iteration and validation  
+- Stronger consistency across a growing body of work
+
+> Every approved document makes StudioSync smarter. Every round of feedback makes the team faster.
 
 ---
 
 ### **3.3. Use Case: Human Operator**
 
-This use case for **StudioSync** was conducted by a **single human operator**: a technically proficient creative with interdisciplinary experience across **AI/ML, software engineering, HITL system design, teaching, writing, comedy,** and **technical communication**. The operator brings a broad, practical understanding of narrative techniques, creative development, project management, and system-level analysis.  
+This use case was conducted by a **single human operator**: a technically proficient creative with interdisciplinary experience across **AI/ML, software engineering, HITL system design, teaching, writing, comedy,** and **technical communication**. The operator brings practical expertise in narrative analysis, creative iteration, system design, and cross-domain problem solving.
 
-**The operator is not a professional screenwriter**, nor formally trained in television writing. This distinction is important when evaluating how system performance might generalize to **professional creative teams**.
+Importantly, the operator is **not a professional screenwriter**, nor formally trained in television writing. This distinction is essential when evaluating how StudioSync’s performance might generalize to **professional creative teams** working at studio scale.
 
 **Personal Resources:**
 
-- Formally trained English teacher with understanding of narrative structures, pacing, theme, and tone
+- Formally trained English teacher with understanding of narrative structures, pacing, theme, and tone.
 
-- Award-winning technical communicator
+- Award-winning technical communicator.
 
-- Experience with LLM customization, cognitive system design, and HITL workflows
+- Experience with LLM customization, cognitive system design, and HITL workflows.
 
-- Experience with short-form comedy writing (setup, payoff, timing, punchline calibration)
+- Experience with short-form comedy writing (setup, payoff, timing, punchline calibration).
 
-- Close attention to throughlines, cohesion, dynamism, structure, and narrative impact
+- Close attention to throughlines, cohesion, dynamism, structure, and narrative impact.
 
 **Personal Constraints:**
 
-- Not a professional screenwriter (no formal training or studio experience)
+- Not a professional screenwriter (no formal training or studio experience).
 
-- Limited familiarity with standardized TV writing terminology or formatting conventions beyond project research
+- Limited familiarity with standardized TV writing terminology or formatting conventions beyond project research.
 
-- Limited experience with scriptwriting tools 
+- Limited experience with scriptwriting tools. 
 
-- No team writing experience for episodic media
+- No team writing experience for episodic media.
 
 - Development time constraint: 160 hours.
 
