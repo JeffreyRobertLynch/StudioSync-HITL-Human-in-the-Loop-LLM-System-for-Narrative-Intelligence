@@ -28,7 +28,7 @@ It ensures stories, characters, arcs, and tone remain consistent no matter how c
   - [2.3. Demo Roadmap](#23-demo-roadmap)
 - [3. Real-World Use Case](#3-real-world-use-case)
   - [3.1. Use Case: Premise](#31-use-case-premise)
-  - [3.2. Use Case: Documents & Staging](#32-use-case-documents-&-staging)
+  - [3.2. Use Case: Documents & Staging](#32-use-case-documents-staging)
   - [3.3. Use Case: Human Operator](#33-use-case-human-operator)
 - [4. Stage 1: Early Development – Ideation & Pitching](#4-stage-1-early-development--ideation--pitching)
   - [4.1. Misaligned Pitch Evaluation](#41-misaligned-pitch-evaluation)
