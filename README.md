@@ -12,7 +12,7 @@ It ensures stories, characters, arcs, and tone remain consistent no matter how c
 
 **The first and final voice is always human.** 
 
-**Note**: This project is undergoing updates to reflect migration from GPT-4.1 to GPT-5.
+**Note**: This project is undergoing updates to reflect migration from GPT-4 to GPT-5.
 
 ---
 
