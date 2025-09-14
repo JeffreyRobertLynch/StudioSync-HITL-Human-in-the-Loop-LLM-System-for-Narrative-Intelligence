@@ -255,8 +255,8 @@ StudioSync works with three categories of documents, each playing a distinct rol
 
 | Document Type       | Definition                                                                 | System Role                                                                                     | Examples                                                                                 |
 |---------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| Reference Document  | A previously-ingested document that forms persistent memory and creative canon. | Enables recall, consistency checks, arc tracking, rule enforcement.                             | Studio mandate, series bible, character bible, finalized episodes     |
-| Structured Input     | A document submitted in a structured format for formal evaluation.           | Evaluated for alignment, story logic, character coverage, tone, and readiness.                  | Pitches, outlines, scripts, drafts                                   |
+| Reference Document  | A previously-ingested document that forms persistent memory and creative canon. | Enables recall, consistency checks, arc tracking, rule enforcement.                             | Studio mandate, series bible, character bible    |
+| Structured Input     | A document submitted in a structured format for formal evaluation.           | Evaluated for alignment, story logic, character coverage, tone, and readiness.                  | Pitches, episode & pilot outlines, draft scripts, final scripts                                   |
 | Unstructured Input   | Natural language prompt, system query, or idea exploration from the human operator.         | Used for feedback, issue flagging, creative iteration, or speculative reasoning.                | "Which characters are underused?" "Is this concept redundant with Ep 3?"                 |
 
 > **Note:** Structured inputs often become reference documents in later stages. This reflects how greenlit drafts become canon for future episodes or seasons. It also improves the system's performance s it has more reference docs to draw from to inform responses.
@@ -290,8 +290,9 @@ By converting final or greenlit materials into persistent reference documents, S
 - Identify duplicate or redundant episodes  
 - Track emotional dynamics and arc development  
 - Ensure setup/payoff consistency across seasons
+- Surface continuity errors
 
-Each new document added to memory increases the system’s precision, responsiveness, and creative utility — without requiring retraining or manual indexing.
+Each new document added to memory increases the system’s precision, responsiveness, and creative utility without requiring retraining or manual indexing.
 
 ---
 
