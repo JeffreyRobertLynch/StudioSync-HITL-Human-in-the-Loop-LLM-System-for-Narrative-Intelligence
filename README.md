@@ -276,7 +276,7 @@ As development progresses, documents flow from input to reference, gradually for
 | **Stage 2** | Mid Development – Writers’ Room & Series Design | - Pilot Outline<br>- Episode Outlines     | - Studio Mandate<br>- Series Bible<br>- Character Bible                                                        | Series Bible & Characters formalized           |
 |            |                                              |                                                                       |                                                                                                        | Canon episodes begin to accumulate             |
 | **Stage 3** | Late Development – Season Treatment         | - Full Scripts (Season 1)<br>- Episode Summaries                     | - Studio Mandate<br>- Series Bible<br>- Character Bible<br>- Episode Outlines<br>- Pilot Outline                  | Complete season outline becomes reference              |
-| **Stage 4** | Finalization – Table Reads & Locked Scripts | - Final Scripts                     | - Studio Mandate<br>- Series Bible<br>- Character Bible<br>- Episode Outlines<br>- Pilot Outline - Episode Feedback                                          | Locked episodes replace working drafts         |
+| **Stage 4** | Finalization – Table Reads & Locked Scripts | - Final Scripts                     | - Studio Mandate<br>- Series Bible<br>- Character Bible<br>- Episode Outlines<br>- Pilot Outline<br>- Episode Feedback                                          | Locked episodes replace working drafts         |
 | **Stage 5** | Season 2 & Beyond – Future Planning          | - S2 Outlines  | - Season 1 Canon (all season 1 docs)                | Season 2 materials expand narrative memory      |
 
 ---
