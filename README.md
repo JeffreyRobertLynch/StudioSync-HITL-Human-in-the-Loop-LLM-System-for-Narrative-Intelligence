@@ -9,7 +9,7 @@ Writers can query story logic, track character arcs, detect contradictions, and 
 StudioSync is grounded in **HITL (Human-in-the-Loop)** and **HFHL (Human-First, Human-Last)** principles:
 
 - **Humans** drive story, tone, emotion, and creative direction.  
-- **The system** manages structure, memory, alignment, and continuity.  
+- **StudioSync** manages structure, memory, alignment, and continuity.  
 - The **first and final voice** is always human.
 
 > This is not an LLM wrapper. It’s a cognitive collaboration framework for **scalable**, **high-integrity** storytelling that **prioritizes** (and **protects**) **human creativity at all levels**.
