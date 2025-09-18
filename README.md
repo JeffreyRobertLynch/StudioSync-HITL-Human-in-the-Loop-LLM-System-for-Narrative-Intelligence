@@ -2,7 +2,7 @@
 
 **StudioSync** is a human-guided AI system that helps studios and writers manage complex story development across episodes, seasons, and distributed teams without losing creative vision, tone, or continuity.
 
-Built on **GPT-5**, **retrieval-augmented generation (RAG)**, and **cognitive design principles**, StudioSync ingests real-world production documents — character bios, beat sheets, episode outlines — and transforms them into an **interactive narrative intelligence layer**.
+Built on **GPT-5**, **retrieval-augmented generation (RAG)**, and **cognitive design principles**, StudioSync ingests real-world production documents — character bios, episode outlines, scripts, studio mandates, table read feedback — and transforms them into an **interactive narrative intelligence layer**.
 
 Writers can query story logic, track character arcs, detect contradictions, and understand how narrative decisions ripple across the broader work. **StudioSync doesn't generate scripts.** It ensures that the ones you write stay aligned, coherent, and structurally sound. **Across vast bodies of work**.
 
