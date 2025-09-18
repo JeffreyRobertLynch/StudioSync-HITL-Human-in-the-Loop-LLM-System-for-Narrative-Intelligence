@@ -1,18 +1,20 @@
 # StudioSync HITL: LLM System for Narrative Intelligence
 
-StudioSync creates **conversational development documents** that help writers, showrunners, and studios manage the complexity of evolving stories across seasons, episodes, and distributed teams. Built on GPT-5, RAG (retrieval-augmented generation), and cognitive design principles, it ingests real-world documents (character bios, beat sheets, episode summaries) and enables deep querying, contradiction checks, narrative reasoning, and evaluation of how changes ripple throughout the overall narrative work. 
+**StudioSync** is a human-guided AI system that helps studios and writers manage complex story development across episodes, seasons, and distributed teams without losing creative vision, tone, or continuity.
 
-**It doesn’t write scripts.** 
+Built on **GPT-5**, **retrieval-augmented generation (RAG)**, and **cognitive design principles**, StudioSync ingests real-world production documents — character bios, beat sheets, episode outlines — and transforms them into an **interactive narrative intelligence layer**.
 
-It ensures stories, characters, arcs, and tone remain consistent no matter how chaotic the storyline or team workflow. StudioSync adheres to HITL (Human-in-the-Loop) and HFHL (Human-First, Human-Last) system principles: 
+Writers can query story logic, track character arcs, detect contradictions, and understand how narrative decisions ripple across the broader work. **StudioSync doesn't generate scripts.** It ensures that the ones you write stay aligned, coherent, and structurally sound. **Across vast bodies of work**.
 
-**Humans** handle creativity, taste, emotional impact, flexibility, and lateral thinking.
+StudioSync is grounded in **HITL (Human-in-the-Loop)** and **HFHL (Human-First, Human-Last)** principles:
 
-**The system** handles structure, memory, alignment, contradiction detection, and pattern recognition. 
+- **Humans** drive story, tone, emotion, and creative direction.  
+- **The system** manages structure, memory, alignment, and continuity.  
+- The **first and final voice** is always human.
 
-**The first and final voice is always human.** 
+> This is not an LLM wrapper. It’s a cognitive collaboration framework for **scalable**, **high-integrity** storytelling that **prioritizes** (and **protects**) **human creativity at all levels**.
 
-**Note**: This project is undergoing updates to reflect migration from GPT-4 to GPT-5.
+**Note**: This project is currently being updated for GPT-5 integration.
 
 ---
 
