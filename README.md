@@ -243,7 +243,6 @@ To demonstrate StudioSync in action, we simulate the development of an original 
 ---
 
 ### **3.2. Use Case: Document Staging**
-## 3.2 Use Case: Document Staging
 
 StudioSync is built to support real-world creative workflows using **standard narrative documents** in **human-readable Markdown** format, not proprietary schemas or structured APIs. These documents fuel the system’s ability to track continuity, enforce creative rules, and build a persistent memory layer over time.
 
