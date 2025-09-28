@@ -122,7 +122,7 @@ Human cognitive strengths are particularly key when it comes to **comedy**. The 
 
 Then there's context. LLMs are limited by their training and a finite context window. Humans excel at:
 
-- **Extremely long, diffuse context:** A writer draws on decades of life experience, but selectively and intuitively. For example, if writing a story about a lake house they could draw from childhood memories, a novel they read last year, or a recent weekend trip. Humans can autonomously and flexibly add items to, and omit items from, their own personal context window.
+- **Extremely long, diffuse context:** A writer draws on decades of life experience, but selectively and intuitively. For example, if writing a story about a lake house they could draw from childhood memories, a novel they read last year, or a recent weekend trip. Humans can autonomously and flexibly manage their own context window dynamically.
 
 - **Flexible, focused context:** Deep immersion in an idea, scene, or beat. Applying weighted focus to what is most important, while ignoring noise. LLMs can model attention, but not with the same fluidity and judgment.
 
